@@ -1,4 +1,4 @@
-name: r1s Lean版openwrt 
+name: r1s test app
 
 on:
   push:
