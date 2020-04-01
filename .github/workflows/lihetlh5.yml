@@ -1,11 +1,11 @@
-name: r1s test app
+name: r1s lihe h5
 
 on:
   push:
     branches: 
       - master
     paths:
-      - '.github/workflows/LiheH5.yml'
+      - '.github/workflows/lihetlh5.yml'
   schedule:
     - cron: '10 10 */2 * *'
 
