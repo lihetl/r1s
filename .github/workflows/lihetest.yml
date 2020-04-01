@@ -1,11 +1,11 @@
-name: r1s lihe 0401
+name: r1s lihe 0401 test
 
 on:
   push:
     branches: 
       - master
     paths:
-      - '.github/workflows/lihetlh5.yml'
+      - '.github/workflows/lihetest.yml'
   schedule:
     - cron: '10 10 */2 * *'
 
@@ -131,5 +131,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@master
         with:
-          name: FriendlyWrt_NanoPi-R1S H5 0401
+          name: NanoPi-R1S 0401
           path: ./artifact/
